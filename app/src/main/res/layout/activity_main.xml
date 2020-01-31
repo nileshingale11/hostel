@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -30,24 +31,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/mainScr_margin_start"
         android:layout_marginTop="@dimen/mainScr_margin_top"
-        android:layout_marginEnd="@dimen/mainScr_margin_end"
         android:orientation="horizontal">
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_mainScr_login"
+            android:text="@string/login"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/mainScr_margin_start"
             android:layout_marginEnd="@dimen/mainScr_margin_end"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            app:cornerRadius="@dimen/materialBtn_cornerRadius" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_mainScr_register"
+            android:text="@string/register"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/mainScr_margin_start"
             android:layout_marginEnd="@dimen/mainScr_margin_end"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            app:cornerRadius="@dimen/materialBtn_cornerRadius" />
     </LinearLayout>
 
 </LinearLayout>

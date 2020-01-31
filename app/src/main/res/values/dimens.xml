@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="mainScr_title_margin_top">100dp</dimen>
-    <dimen name="mainScr_title_textSize">25sp</dimen>
+    <dimen name="mainScr_title_textSize">26sp</dimen>
     <dimen name="mainScr_image_height">209dp</dimen>
     <dimen name="mainScr_margin_start">20dp</dimen>
     <dimen name="mainScr_margin_end">20dp</dimen>
     <dimen name="mainScr_margin_top">20dp</dimen>
+    <dimen name="materialBtn_cornerRadius">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>

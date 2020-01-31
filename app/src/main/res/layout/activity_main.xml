@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/mainScr_margin_start"
+        android:layout_marginTop="@dimen/mainScr_title_margin_top"
+        android:layout_marginEnd="@dimen/mainScr_margin_end"
+        android:gravity="center"
+        android:text="@string/mainScr_title"
+        android:textColor="@color/textColor_black"
+        android:textSize="@dimen/mainScr_title_textSize" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainScr_image_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/mainScr_margin_start"
+        android:layout_marginTop="@dimen/mainScr_margin_top"
+        android:layout_marginEnd="@dimen/mainScr_margin_end"
+        android:src="@drawable/hostel" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/mainScr_margin_start"
+        android:layout_marginTop="@dimen/mainScr_margin_top"
+        android:layout_marginEnd="@dimen/mainScr_margin_end"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mainScr_margin_start"
+            android:layout_marginEnd="@dimen/mainScr_margin_end"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mainScr_margin_start"
+            android:layout_marginEnd="@dimen/mainScr_margin_end"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

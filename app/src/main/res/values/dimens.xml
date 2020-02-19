@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="mainScr_title_margin_top">100dp</dimen>
+    <dimen name="mainScr_title_margin_top">140dp</dimen>
     <dimen name="mainScr_title_textSize">26sp</dimen>
     <dimen name="mainScr_image_height">209dp</dimen>
     <dimen name="mainScr_margin_start">20dp</dimen>
@@ -10,4 +10,8 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="allScreens_margin">20dp</dimen>
+    <dimen name="btn_textSize">14sp</dimen>
+    <dimen name="hint_textSize">14sp</dimen>
+    <dimen name="margin_bottom_end_component">10dp</dimen>
 </resources>

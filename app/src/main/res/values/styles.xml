@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -11,6 +11,33 @@
     <style name="AppTheme.NoActionBar" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeToolbar">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/mainScr_margin_top</item>
+        <item name="android:layout_marginEnd">@dimen/mainScr_margin_end</item>
+        <item name="android:layout_marginStart">@dimen/mainScr_margin_start</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/materialBtn_cornerRadius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/materialBtn_cornerRadius</item>
+        <item name="boxStrokeColor">@color/textColor_black</item>
+        <item name="hintTextAppearance">@style/hintTextApp</item>
+        <item name="android:colorControlActivated">@color/textColor_black</item>
+    </style>
+    
+    <style name="hintTextApp" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textColor_black</item>
+        <item name="android:textSize">@dimen/hint_textSize</item>
+    </style>
+
+    <style name="HintTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/textColor_black</item>
+        <item name="android:textColor">@color/textColor_black</item>
     </style>
 
 </resources>

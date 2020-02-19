@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "325997215673",
+    "firebase_url": "https://flatmates-2321c.firebaseio.com",
+    "project_id": "flatmates-2321c",
+    "storage_bucket": "flatmates-2321c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325997215673:android:6e192f4e581828264b4068",
+        "android_client_info": {
+          "package_name": "com.example.hostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325997215673-c4pc4jskv2a6pqpeg26a18jci7m8vm61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hostel",
+            "certificate_hash": "7b8c547364d3b16f0737ef6bf13f6a2bbb27b327"
+          }
+        },
+        {
+          "client_id": "325997215673-o8s5iju5nmsmpbfd6m22gphphqk9aklc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCRYfOrDdWOnk8Yhb7Fq_w83oQRI0gV_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325997215673-o8s5iju5nmsmpbfd6m22gphphqk9aklc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
